@@ -16,7 +16,7 @@ engineering roles.
 | **[grounded](https://github.com/omergazi34/grounded)** · Python | RAG with verified citations. BM25, dense retrieval and two fusion strategies written from scratch, a labelled benchmark, and a fusion weight chosen by cross-validation. |
 | **[tcmb-mcp](https://github.com/omergazi34/tcmb-mcp)** · TypeScript | MCP server that gives AI assistants the Turkish central bank's exchange rates, with holiday-aware fallback and structured outputs, tested end to end against the live feed. |
 | **[cvpilot](https://github.com/omergazi34/cvpilot)** · Node.js | AI job-application assistant for the Turkish market: ATS analysis, job-specific CV rewrites and cover letters on Claude structured outputs and streaming. |
-| **[minikv](https://github.com/omergazi34/minikv)** · Go | Redis-compatible key-value server on the standard library: RESP, sharded locks, append-only file with group commit and online compaction. Works with `redis-cli`. |
+| **[minikv](https://github.com/omergazi34/minikv)** · Go | Redis-compatible key-value server on the standard library: RESP, sharded locks, append-only file with group commit and online compaction. Works with off-the-shelf Redis clients. |
 
 #### Things I measured along the way
 
@@ -32,7 +32,7 @@ engineering roles.
 
 #### How I work
 
-Every project has tests and CI from the first commit, a benchmark or eval behind its claims, and a
+Every project has a test suite, a benchmark or eval behind its claims, and a
 `DESIGN.md` that explains the trade-offs, including what didn't work.
 
 📫 omerim@hotmail.com
